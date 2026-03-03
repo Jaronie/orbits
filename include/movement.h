@@ -17,3 +17,5 @@
  
 
 void dPadMoveSprite(bn::sprite_ptr& sprite, bn::fixed speed);
+
+#endif
