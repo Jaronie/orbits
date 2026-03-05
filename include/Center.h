@@ -2,7 +2,7 @@
 #define CENTER_H
 #include "bn_fixed_point.h"
 #include "bn_sprite_ptr.h"
-#include "bn_sprite_items_square.h"
+#include "bn_sprite_items_saucer.h"
 
 #include "movement.h"
 
