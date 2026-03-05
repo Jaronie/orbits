@@ -16,3 +16,9 @@ void Orbiter::update(){
             // Update the position by taking a step by the velocity vector
             _sprite.set_position(_sprite.position() + _velocity);
         }
+
+        Orbiter::Orbiter(bn::fixed_point starting_location, bn::fixed_point starting_velocity, Center &center) :
+        _sprite(bn::sprite_items::space_particle.create_sprite(starting_location)),
+        _velocity(starting_velocity),
+        _center(center) {
+        }
