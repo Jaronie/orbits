@@ -4,7 +4,7 @@
 
 #include <bn_fixed_point.h>
 #include <bn_sprite_ptr.h>
-#include <bn_sprite_items_dot.h>
+#include <bn_sprite_items_space_particle.h>
 
 
 #include "Center.h"
